@@ -1,6 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+export PATH="$PATH:/Users/shivamkumar/.local/state/fnm_multishells/8794_1753552499100/bin"
+
+
 # lint js and vue files
 npx --no-install lint-staged
 
