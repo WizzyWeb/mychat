@@ -31,9 +31,9 @@ export default {
     CONDENSED: 'condensed',
     EXPANDED: 'expanded',
   },
-  DOCS_URL: 'https://www.mychat.ae/docs/product/',
-  HELP_CENTER_DOCS_URL: 'https://www.mychat.ae/docs/product/others/help-center',
-  TESTIMONIAL_URL: 'https://testimonials.cdn.mychat.ae/content.json',
+  DOCS_URL: 'https://www.chatmy.ae/docs/product/',
+  HELP_CENTER_DOCS_URL: 'https://www.chatmy.ae/docs/product/others/help-center',
+  TESTIMONIAL_URL: 'https://testimonials.cdn.chatmy.ae/content.json',
   SMALL_SCREEN_BREAKPOINT: 1200,
   AVAILABILITY_STATUS_KEYS: ['online', 'busy', 'offline'],
   SNOOZE_OPTIONS: {

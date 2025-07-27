@@ -2,7 +2,7 @@ FactoryBot.define do
   factory :webhook do
     account_id { 1 }
     inbox_id { 1 }
-    url { 'https://api.mychat.ae' }
+    url { 'https://api.chatmy.ae' }
     subscriptions do
       %w[
         conversation_status_changed

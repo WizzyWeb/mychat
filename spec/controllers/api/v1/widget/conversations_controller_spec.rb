@@ -18,7 +18,7 @@ RSpec.describe '/api/v1/widget/conversations/toggle_typing', type: :request do
       website_token: web_widget.website_token,
       contact: {
         name: 'contact-name',
-        email: 'contact-email@mychat.ae',
+        email: 'contact-email@chatmy.ae',
         phone_number: '+919745313456'
       },
       message: {
@@ -71,7 +71,7 @@ RSpec.describe '/api/v1/widget/conversations/toggle_typing', type: :request do
       expect(response).to have_http_status(:success)
       json_response = response.parsed_body
       expect(json_response['id']).not_to be_nil
-      expect(json_response['contact']['email']).to eq 'contact-email@mychat.ae'
+      expect(json_response['contact']['email']).to eq 'contact-email@chatmy.ae'
       expect(json_response['contact']['phone_number']).to eq '+919745313456'
       expect(json_response['contact']['name']).to eq 'contact-name'
     end
@@ -112,7 +112,7 @@ RSpec.describe '/api/v1/widget/conversations/toggle_typing', type: :request do
     end
 
     it 'does not update the name if the contact already exist' do
-      existing_contact = create(:contact, account: account, email: 'contact-email@mychat.ae')
+      existing_contact = create(:contact, account: account, email: 'contact-email@chatmy.ae')
 
       post '/api/v1/widget/conversations',
            headers: { 'X-Auth-Token' => token },

@@ -4,11 +4,11 @@ describe('PortalHelper', () => {
   describe('buildPortalURL', () => {
     it('returns the correct url', () => {
       window.chatwootConfig = {
-        hostURL: 'https://app.mychat.ae',
-        helpCenterURL: 'https://help.mychat.ae',
+        hostURL: 'https://app.chatmy.ae',
+        helpCenterURL: 'https://help.chatmy.ae',
       };
       expect(buildPortalURL('handbook')).toEqual(
-        'https://help.mychat.ae/hc/handbook'
+        'https://help.chatmy.ae/hc/handbook'
       );
       window.chatwootConfig = {};
     });
@@ -17,19 +17,19 @@ describe('PortalHelper', () => {
   describe('buildPortalArticleURL', () => {
     it('returns the correct url', () => {
       window.chatwootConfig = {
-        hostURL: 'https://app.mychat.ae',
-        helpCenterURL: 'https://help.mychat.ae',
+        hostURL: 'https://app.chatmy.ae',
+        helpCenterURL: 'https://help.chatmy.ae',
       };
       expect(
         buildPortalArticleURL('handbook', 'culture', 'fr', 'article-slug')
-      ).toEqual('https://help.mychat.ae/hc/handbook/articles/article-slug');
+      ).toEqual('https://help.chatmy.ae/hc/handbook/articles/article-slug');
       window.chatwootConfig = {};
     });
 
     it('returns the correct url with custom domain', () => {
       window.chatwootConfig = {
-        hostURL: 'https://app.mychat.ae',
-        helpCenterURL: 'https://help.mychat.ae',
+        hostURL: 'https://app.chatmy.ae',
+        helpCenterURL: 'https://help.chatmy.ae',
       };
       expect(
         buildPortalArticleURL(
@@ -44,8 +44,8 @@ describe('PortalHelper', () => {
 
     it('handles https in custom domain correctly', () => {
       window.chatwootConfig = {
-        hostURL: 'https://app.mychat.ae',
-        helpCenterURL: 'https://help.mychat.ae',
+        hostURL: 'https://app.chatmy.ae',
+        helpCenterURL: 'https://help.chatmy.ae',
       };
       expect(
         buildPortalArticleURL(
@@ -60,12 +60,12 @@ describe('PortalHelper', () => {
 
     it('uses hostURL when helpCenterURL is not available', () => {
       window.chatwootConfig = {
-        hostURL: 'https://app.mychat.ae',
+        hostURL: 'https://app.chatmy.ae',
         helpCenterURL: '',
       };
       expect(
         buildPortalArticleURL('handbook', 'culture', 'fr', 'article-slug')
-      ).toEqual('https://app.mychat.ae/hc/handbook/articles/article-slug');
+      ).toEqual('https://app.chatmy.ae/hc/handbook/articles/article-slug');
     });
   });
 });

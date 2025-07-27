@@ -82,7 +82,7 @@ const menuItems = computed(() => {
       showOnCustomBrandedInstance: false,
       label: t('SIDEBAR_ITEMS.DOCS'),
       icon: 'i-lucide-book',
-      link: 'https://www.mychat.ae/hc/user-guide/en',
+      link: 'https://www.chatmy.ae/hc/user-guide/en',
       nativeLink: true,
       target: '_blank',
     },

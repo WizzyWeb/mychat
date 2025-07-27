@@ -68,9 +68,9 @@ export default {
     ...mapGetters({ globalConfig: 'globalConfig/get' }),
     termsLink() {
       return this.$t('REGISTER.TERMS_ACCEPT')
-        .replace('https://www.mychat.ae/terms', this.globalConfig.termsURL)
+        .replace('https://www.chatmy.ae/terms', this.globalConfig.termsURL)
         .replace(
-          'https://www.mychat.ae/privacy-policy',
+          'https://www.chatmy.ae/privacy-policy',
           this.globalConfig.privacyURL
         );
     },

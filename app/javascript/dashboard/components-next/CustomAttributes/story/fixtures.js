@@ -9,7 +9,7 @@ export default [
     attributeKey: 'linkContact',
     attributeDisplayName: 'URL Input',
     attributeDisplayType: 'link',
-    value: 'https://www.mychat.ae',
+    value: 'https://www.chatmy.ae',
   },
   {
     attributeKey: 'numberContact',

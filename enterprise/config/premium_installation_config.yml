@@ -8,15 +8,15 @@
 - name: LOGO_DARK
   value: '/brand-assets/logo_dark.svg'
 - name: BRAND_URL
-  value: 'https://www.mychat.ae'
+  value: 'https://www.chatmy.ae'
 - name: WIDGET_BRAND_URL
-  value: 'https://www.mychat.ae'
+  value: 'https://www.chatmy.ae'
 - name: BRAND_NAME
   value: 'MyChat'
 - name: TERMS_URL
-  value: 'https://www.mychat.ae/terms-of-service'
+  value: 'https://www.chatmy.ae/terms-of-service'
 - name: PRIVACY_URL
-  value: 'https://www.mychat.ae/privacy-policy'
+  value: 'https://www.chatmy.ae/privacy-policy'
 - name: DISPLAY_MANIFEST
   value: true
 # ------- End of Branding Related Config ------- #

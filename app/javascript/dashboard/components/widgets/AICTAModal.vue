@@ -71,7 +71,7 @@ export default {
       }
     },
     openOpenAIDoc() {
-      window.open('https://www.mychat.ae/blog/v2-17', '_blank');
+      window.open('https://www.chatmy.ae/blog/v2-17', '_blank');
     },
   },
 };

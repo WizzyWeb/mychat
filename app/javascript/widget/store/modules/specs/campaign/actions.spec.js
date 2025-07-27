@@ -32,7 +32,7 @@ describe('#actions', () => {
         { commit },
         {
           websiteToken: 'XDsafmADasd',
-          currentURL: 'https://mychat.ae',
+          currentURL: 'https://chatmy.ae',
           isInBusinessHours: true,
         }
       );
@@ -53,7 +53,7 @@ describe('#actions', () => {
             {
               id: 11,
               timeOnPage: '20',
-              url: 'https://mychat.ae',
+              url: 'https://chatmy.ae',
               triggerOnlyDuringBusinessHours: false,
             },
           ],
@@ -70,7 +70,7 @@ describe('#actions', () => {
         { commit },
         {
           websiteToken: 'XDsafmADasd',
-          currentURL: 'https://mychat.ae',
+          currentURL: 'https://chatmy.ae',
           isInBusinessHours: true,
         }
       );
@@ -94,7 +94,7 @@ describe('#actions', () => {
             {
               id: 11,
               timeOnPage: '20',
-              url: 'https://mychat.ae',
+              url: 'https://chatmy.ae',
               triggerOnlyDuringBusinessHours: false,
             },
           ],
@@ -110,7 +110,7 @@ describe('#actions', () => {
         { commit },
         {
           websiteToken: 'XDsafmADasd',
-          currentURL: 'https://www.mychat.ae',
+          currentURL: 'https://www.chatmy.ae',
           isInBusinessHours: true,
         }
       );
@@ -120,7 +120,7 @@ describe('#actions', () => {
   describe('#initCampaigns', () => {
     const actionParams = {
       websiteToken: 'XDsafmADasd',
-      currentURL: 'https://mychat.ae',
+      currentURL: 'https://chatmy.ae',
     };
     it('sends correct actions if campaigns are empty', async () => {
       await actions.initCampaigns(
@@ -164,7 +164,7 @@ describe('#actions', () => {
             {
               id: 11,
               timeOnPage: '20',
-              url: 'https://mychat.ae',
+              url: 'https://chatmy.ae',
               triggerOnlyDuringBusinessHours: false,
             },
           ],

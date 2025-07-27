@@ -161,14 +161,14 @@ RSpec.describe ConversationReplyMailer do
         end
 
         it 'includes CSAT survey URL in outgoing_content' do
-          with_modified_env 'FRONTEND_URL' => 'https://app.mychat.ae' do
+          with_modified_env 'FRONTEND_URL' => 'https://app.chatmy.ae' do
             mail = described_class.email_reply(csat_message).deliver_now
-            expect(mail.decoded).to include "https://app.mychat.ae/survey/responses/#{conversation.uuid}"
+            expect(mail.decoded).to include "https://app.chatmy.ae/survey/responses/#{conversation.uuid}"
           end
         end
 
         it 'uses outgoing_content for CSAT message body' do
-          with_modified_env 'FRONTEND_URL' => 'https://app.mychat.ae' do
+          with_modified_env 'FRONTEND_URL' => 'https://app.chatmy.ae' do
             mail = described_class.email_reply(csat_message).deliver_now
             expect(mail.decoded).to include csat_message.outgoing_content
           end
@@ -424,7 +424,7 @@ RSpec.describe ConversationReplyMailer do
     end
 
     context 'when inbox email address is available' do
-      let(:inbox) { create(:inbox, account: account, email_address: 'noreply@mychat.ae') }
+      let(:inbox) { create(:inbox, account: account, email_address: 'noreply@chatmy.ae') }
       let(:conversation) { create(:conversation, assignee: agent, inbox: inbox, account: account) }
       let!(:message) { create(:message, conversation: conversation, account: account) }
       let(:mail) { described_class.reply_with_summary(message.conversation, message.id).deliver_now }

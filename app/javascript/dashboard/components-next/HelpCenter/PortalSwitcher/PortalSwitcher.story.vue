@@ -20,7 +20,7 @@ const portals = [
     id: 3,
     name: 'Developer Documentation',
     articles: 89,
-    domain: 'dev.mychat.ae',
+    domain: 'dev.chatmy.ae',
     slug: 'docs',
   },
 ];

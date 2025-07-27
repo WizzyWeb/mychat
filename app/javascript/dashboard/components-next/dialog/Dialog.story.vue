@@ -61,7 +61,7 @@ const onConfirm = dialog => {};
             type="text"
             placeholder="user-guide"
             label="Slug"
-            message="app.mychat.ae/hc/my-portal/en-US/categories/my-slug"
+            message="app.chatmy.ae/hc/my-portal/en-US/categories/my-slug"
           />
         </div>
       </Dialog>

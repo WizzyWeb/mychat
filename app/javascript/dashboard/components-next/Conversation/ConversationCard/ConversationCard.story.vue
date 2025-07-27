@@ -8,7 +8,7 @@ const conversationWithoutMeta = {
     sender: {
       additionalAttributes: {},
       availabilityStatus: 'offline',
-      email: 'candice@mychat.ae',
+      email: 'candice@chatmy.ae',
       id: 29,
       name: 'Candice Matherson',
       phone_number: '+918585858585',
@@ -30,7 +30,7 @@ const conversationWithoutMeta = {
       availabilityStatus: 'online',
       autoOffline: false,
       confirmed: true,
-      email: 'sivin@mychat.ae',
+      email: 'sivin@chatmy.ae',
       availableName: 'Sivin',
       name: 'Sivin',
       role: 'administrator',
@@ -66,7 +66,7 @@ const conversationWithoutMeta = {
         unreadCount: 0,
         lastActivityAt: 1730885168,
         contactInbox: {
-          sourceId: 'candice@mychat.ae',
+          sourceId: 'candice@chatmy.ae',
         },
       },
     },
@@ -120,7 +120,7 @@ const conversationWithoutMeta = {
       unread_count: 0,
       last_activity_at: 1730885168,
       contact_inbox: {
-        source_id: 'candice@mychat.ae',
+        source_id: 'candice@chatmy.ae',
       },
     },
     sender: {
@@ -145,7 +145,7 @@ const conversationWithMeta = {
     sender: {
       additionalAttributes: {},
       availabilityStatus: 'offline',
-      email: 'willy@mychat.ae',
+      email: 'willy@chatmy.ae',
       id: 29,
       name: 'Willy Castelot',
       phoneNumber: '+918585858585',
@@ -167,7 +167,7 @@ const conversationWithMeta = {
       availabilityStatus: 'online',
       autoOffline: false,
       confirmed: true,
-      email: 'sivin@mychat.ae',
+      email: 'sivin@chatmy.ae',
       availableName: 'Sivin',
       name: 'Sivin',
       role: 'administrator',
@@ -210,7 +210,7 @@ const conversationWithMeta = {
         unread_count: 0,
         last_activity_at: 1730885428,
         contact_inbox: {
-          source_id: 'candice@mychat.ae',
+          source_id: 'candice@chatmy.ae',
         },
       },
       sender: {
@@ -282,7 +282,7 @@ const conversationWithMeta = {
       unread_count: 2,
       last_activity_at: 1730885428,
       contact_inbox: {
-        source_id: 'willy@mychat.ae',
+        source_id: 'willy@chatmy.ae',
       },
     },
     sender: {
@@ -333,7 +333,7 @@ const conversationWithMeta = {
 
 const contactForConversationWithoutMeta = computed(() => ({
   availabilityStatus: null,
-  email: 'candice@mychat.ae',
+  email: 'candice@chatmy.ae',
   id: 29,
   name: 'Candice Matherson',
   phoneNumber: '+918585858585',
@@ -347,7 +347,7 @@ const contactForConversationWithoutMeta = computed(() => ({
 
 const contactForConversationWithMeta = computed(() => ({
   availabilityStatus: null,
-  email: 'willy@mychat.ae',
+  email: 'willy@chatmy.ae',
   id: 29,
   name: 'Willy Castelot',
   phoneNumber: '+918585858585',

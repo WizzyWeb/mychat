@@ -3,14 +3,14 @@ info:
   title: Chatwoot - Other APIs
   description: Other API endpoints for Chatwoot
   version: 1.1.0
-  termsOfService: https://www.mychat.ae/terms-of-service/
+  termsOfService: https://www.chatmy.ae/terms-of-service/
   contact:
-    email: hello@mychat.ae
+    email: hello@chatmy.ae
   license:
     name: MIT License
     url: https://opensource.org/licenses/MIT
 servers:
-  - url: https://app.mychat.ae/
+  - url: https://app.chatmy.ae/
 tags:
   - name: CSAT Survey Page
     description: APIs for CSAT survey functionality

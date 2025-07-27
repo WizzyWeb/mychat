@@ -4,9 +4,9 @@
     "title": "Chatwoot",
     "description": "This is the API documentation for Chatwoot server.",
     "version": "1.1.0",
-    "termsOfService": "https://www.mychat.ae/terms-of-service/",
+    "termsOfService": "https://www.chatmy.ae/terms-of-service/",
     "contact": {
-      "email": "hello@mychat.ae"
+      "email": "hello@chatmy.ae"
     },
     "license": {
       "name": "MIT License",
@@ -15,7 +15,7 @@
   },
   "servers": [
     {
-      "url": "https://app.mychat.ae/"
+      "url": "https://app.chatmy.ae/"
     }
   ],
   "paths": {
@@ -2925,7 +2925,7 @@
           "homepage_link": {
             "type": "string",
             "description": "link to main dashboard",
-            "example": "https://www.mychat.ae/"
+            "example": "https://www.chatmy.ae/"
           },
           "name": {
             "type": "string",

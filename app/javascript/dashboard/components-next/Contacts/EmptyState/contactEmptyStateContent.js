@@ -16,7 +16,7 @@ export default [
       },
     },
     availabilityStatus: 'offline',
-    email: 'candice.matherson@mychat.ae',
+    email: 'candice.matherson@chatmy.ae',
     id: 22,
     name: 'Candice Matherson',
     phoneNumber: '+14155552671',

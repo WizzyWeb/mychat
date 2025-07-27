@@ -1,22 +1,19 @@
 # #
-# # This action will publish Chatwoot CE docker image.
+# # This action will publish MyChat CE docker image.
 # # This is set to run against merges to develop, master
 # # and when tags are created.
 # #
 
-name: Publish Chatwoot CE docker images
+name: Publish MyChat CE docker images
 
 on:
   push:
     branches:
-      - develop
-      - master
-    tags:
-      - v*
+      - mychat
   workflow_dispatch:
 
 env:
-  DOCKER_REPO: chatwoot/chatwoot
+  DOCKER_REPO: bloggershivam/mychat
 
 jobs:
   build:
@@ -45,7 +42,7 @@ jobs:
           rm -rf enterprise
           rm -rf spec/enterprise
 
-      - name: Set Chatwoot edition
+      - name: Set MyChat edition
         run: |
           echo -en '\nENV CW_EDITION="ce"' >> docker/Dockerfile
 

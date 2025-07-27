@@ -7,13 +7,13 @@ describe('#getters', () => {
         {
           id: 1,
           name: 'Agent 1',
-          email: 'agent1@mychat.ae',
+          email: 'agent1@chatmy.ae',
           confirmed: true,
         },
         {
           id: 2,
           name: 'Agent 2',
-          email: 'agent2@mychat.ae',
+          email: 'agent2@chatmy.ae',
           confirmed: false,
         },
       ],
@@ -22,13 +22,13 @@ describe('#getters', () => {
       {
         id: 1,
         name: 'Agent 1',
-        email: 'agent1@mychat.ae',
+        email: 'agent1@chatmy.ae',
         confirmed: true,
       },
       {
         id: 2,
         name: 'Agent 2',
-        email: 'agent2@mychat.ae',
+        email: 'agent2@chatmy.ae',
         confirmed: false,
       },
     ]);
@@ -40,13 +40,13 @@ describe('#getters', () => {
         {
           id: 1,
           name: 'Agent 1',
-          email: 'agent1@mychat.ae',
+          email: 'agent1@chatmy.ae',
           confirmed: true,
         },
         {
           id: 2,
           name: 'Agent 2',
-          email: 'agent2@mychat.ae',
+          email: 'agent2@chatmy.ae',
           confirmed: false,
         },
       ],
@@ -55,7 +55,7 @@ describe('#getters', () => {
       {
         id: 1,
         name: 'Agent 1',
-        email: 'agent1@mychat.ae',
+        email: 'agent1@chatmy.ae',
         confirmed: true,
       },
     ]);
@@ -84,14 +84,14 @@ describe('#getters', () => {
         {
           id: 1,
           name: 'Agent 1',
-          email: 'agent1@mychat.ae',
+          email: 'agent1@chatmy.ae',
           confirmed: true,
           availability_status: 'online',
         },
         {
           id: 2,
           name: 'Agent 2',
-          email: 'agent2@mychat.ae',
+          email: 'agent2@chatmy.ae',
           confirmed: false,
           availability_status: 'offline',
         },
@@ -110,14 +110,14 @@ describe('#getters', () => {
         {
           id: 1,
           name: 'Agent 1',
-          email: 'agent1@mychat.ae',
+          email: 'agent1@chatmy.ae',
           confirmed: true,
           availability_status: 'online',
         },
         {
           id: 2,
           name: 'Agent 2',
-          email: 'agent2@mychat.ae',
+          email: 'agent2@chatmy.ae',
           confirmed: false,
           availability_status: 'offline',
         },

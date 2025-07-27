@@ -39,13 +39,13 @@ describe('#buildPopoutURL', () => {
   it('returns popout URL', () => {
     expect(
       buildPopoutURL({
-        origin: 'https://mychat.ae',
+        origin: 'https://chatmy.ae',
         conversationCookie: 'random-jwt-token',
         websiteToken: 'random-website-token',
         locale: 'ar',
       })
     ).toEqual(
-      'https://mychat.ae/widget?cw_conversation=random-jwt-token&website_token=random-website-token&locale=ar'
+      'https://chatmy.ae/widget?cw_conversation=random-jwt-token&website_token=random-website-token&locale=ar'
     );
   });
 });

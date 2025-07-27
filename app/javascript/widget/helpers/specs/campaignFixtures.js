@@ -4,7 +4,7 @@ export default [
     trigger_only_during_business_hours: false,
     trigger_rules: {
       time_on_page: 3,
-      url: 'https://www.mychat.ae/pricing',
+      url: 'https://www.chatmy.ae/pricing',
     },
   },
   {
@@ -12,7 +12,7 @@ export default [
     trigger_only_during_business_hours: false,
     trigger_rules: {
       time_on_page: 6,
-      url: 'https://www.mychat.ae/about',
+      url: 'https://www.chatmy.ae/about',
     },
   },
 ];

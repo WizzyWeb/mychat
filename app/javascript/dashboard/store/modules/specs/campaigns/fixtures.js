@@ -26,7 +26,7 @@ export default [
     account_id: 1,
     campaign_type: 'one_off',
     trigger_rules: {
-      url: 'https://mychat.ae',
+      url: 'https://chatmy.ae',
       time_on_page: '20',
     },
     inbox: {

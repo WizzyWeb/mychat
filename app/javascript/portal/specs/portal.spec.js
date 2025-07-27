@@ -59,7 +59,7 @@ describe('openExternalLinksInNewTab', () => {
         <body>
           <div id="cw-article-content">
             <a href="https://external.com" id="external">External</a>
-            <a href="https://app.mychat.ae/page" id="internal">Internal</a>
+            <a href="https://app.chatmy.ae/page" id="internal">Internal</a>
             <a href="https://custom.domain.com/page" id="custom">Custom</a>
             <a href="https://example.com" id="nested"><code>Code</code><strong>Bold</strong></a>
             <ul>
@@ -68,7 +68,7 @@ describe('openExternalLinksInNewTab', () => {
           </div>
         </body>
       </html>`,
-      { url: 'https://app.mychat.ae/hc/article' }
+      { url: 'https://app.chatmy.ae/hc/article' }
     );
 
     document = dom.window.document;
@@ -76,7 +76,7 @@ describe('openExternalLinksInNewTab', () => {
 
     window.portalConfig = {
       customDomain: 'custom.domain.com',
-      hostURL: 'app.mychat.ae',
+      hostURL: 'app.chatmy.ae',
     };
 
     global.document = document;
@@ -141,7 +141,7 @@ describe('openExternalLinksInNewTab', () => {
   it('opens external links in a new tab even if customDomain is empty', () => {
     window = dom.window;
     window.portalConfig = {
-      hostURL: 'app.mychat.ae',
+      hostURL: 'app.chatmy.ae',
     };
 
     global.window = window;

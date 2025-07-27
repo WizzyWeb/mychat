@@ -395,7 +395,7 @@ describe('filterHelpers', () => {
 
     it('should match conversation with contains operator for referer', () => {
       const conversation = {
-        additional_attributes: { referer: 'https://www.mychat.ae/pricing' },
+        additional_attributes: { referer: 'https://www.chatmy.ae/pricing' },
       };
       const filters = [
         {
@@ -410,7 +410,7 @@ describe('filterHelpers', () => {
 
     it('should not match conversation with does_not_contain operator for referer', () => {
       const conversation = {
-        additional_attributes: { referer: 'https://www.mychat.ae/pricing' },
+        additional_attributes: { referer: 'https://www.chatmy.ae/pricing' },
       };
       const filters = [
         {

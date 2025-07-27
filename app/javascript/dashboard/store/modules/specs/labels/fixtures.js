@@ -9,7 +9,7 @@ export default [
   {
     id: 4,
     title: 'saas-customer',
-    description: 'Customers who have account on app.mychat.ae',
+    description: 'Customers who have account on app.chatmy.ae',
     color: '#A8DBCB',
     show_on_sidebar: false,
   },

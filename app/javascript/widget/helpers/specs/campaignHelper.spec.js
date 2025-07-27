@@ -13,29 +13,29 @@ describe('#Campaigns Helper', () => {
     it('returns correct value if a valid URL is passed', () => {
       expect(
         isPatternMatchingWithURL(
-          'https://mychat.ae/pricing*',
-          'https://mychat.ae/pricing/'
+          'https://chatmy.ae/pricing*',
+          'https://chatmy.ae/pricing/'
         )
       ).toBe(true);
 
       expect(
         isPatternMatchingWithURL(
-          'https://*.mychat.ae/pricing/',
-          'https://app.mychat.ae/pricing/'
+          'https://*.chatmy.ae/pricing/',
+          'https://app.chatmy.ae/pricing/'
         )
       ).toBe(true);
 
       expect(
         isPatternMatchingWithURL(
-          'https://{*.}?mychat.ae/pricing?test=true',
-          'https://app.mychat.ae/pricing/?test=true'
+          'https://{*.}?chatmy.ae/pricing?test=true',
+          'https://app.chatmy.ae/pricing/?test=true'
         )
       ).toBe(true);
 
       expect(
         isPatternMatchingWithURL(
-          'https://{*.}?mychat.ae/pricing*\\?*',
-          'https://mychat.ae/pricing/?test=true'
+          'https://{*.}?chatmy.ae/pricing*\\?*',
+          'https://chatmy.ae/pricing/?test=true'
         )
       ).toBe(true);
     });
@@ -48,13 +48,13 @@ describe('#Campaigns Helper', () => {
           id: 1,
           timeOnPage: 3,
           triggerOnlyDuringBusinessHours: false,
-          url: 'https://www.mychat.ae/pricing',
+          url: 'https://www.chatmy.ae/pricing',
         },
         {
           id: 2,
           triggerOnlyDuringBusinessHours: false,
           timeOnPage: 6,
-          url: 'https://www.mychat.ae/about',
+          url: 'https://www.chatmy.ae/about',
         },
       ]);
     });
@@ -67,23 +67,23 @@ describe('#Campaigns Helper', () => {
             {
               id: 1,
               timeOnPage: 3,
-              url: 'https://www.mychat.ae/pricing',
+              url: 'https://www.chatmy.ae/pricing',
               triggerOnlyDuringBusinessHours: false,
             },
             {
               id: 2,
               timeOnPage: 6,
-              url: 'https://www.mychat.ae/about',
+              url: 'https://www.chatmy.ae/about',
               triggerOnlyDuringBusinessHours: false,
             },
           ],
-          currentURL: 'https://www.mychat.ae/about/',
+          currentURL: 'https://www.chatmy.ae/about/',
         })
       ).toStrictEqual([
         {
           id: 2,
           timeOnPage: 6,
-          url: 'https://www.mychat.ae/about',
+          url: 'https://www.chatmy.ae/about',
           triggerOnlyDuringBusinessHours: false,
         },
       ]);
@@ -95,24 +95,24 @@ describe('#Campaigns Helper', () => {
             {
               id: 1,
               timeOnPage: 3,
-              url: 'https://www.mychat.ae/pricing',
+              url: 'https://www.chatmy.ae/pricing',
               triggerOnlyDuringBusinessHours: false,
             },
             {
               id: 2,
               timeOnPage: 6,
-              url: 'https://www.mychat.ae/about',
+              url: 'https://www.chatmy.ae/about',
               triggerOnlyDuringBusinessHours: true,
             },
           ],
-          currentURL: 'https://www.mychat.ae/about/',
+          currentURL: 'https://www.chatmy.ae/about/',
           isInBusinessHours: true,
         })
       ).toStrictEqual([
         {
           id: 2,
           timeOnPage: 6,
-          url: 'https://www.mychat.ae/about',
+          url: 'https://www.chatmy.ae/about',
           triggerOnlyDuringBusinessHours: true,
         },
       ]);
@@ -124,17 +124,17 @@ describe('#Campaigns Helper', () => {
             {
               id: 1,
               timeOnPage: 3,
-              url: 'https://www.mychat.ae/pricing',
+              url: 'https://www.chatmy.ae/pricing',
               triggerOnlyDuringBusinessHours: true,
             },
             {
               id: 2,
               timeOnPage: 6,
-              url: 'https://www.mychat.ae/about',
+              url: 'https://www.chatmy.ae/about',
               triggerOnlyDuringBusinessHours: true,
             },
           ],
-          currentURL: 'https://www.mychat.ae/about/',
+          currentURL: 'https://www.chatmy.ae/about/',
           isInBusinessHours: false,
         })
       ).toStrictEqual([]);

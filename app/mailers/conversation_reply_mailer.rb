@@ -4,7 +4,7 @@ class ConversationReplyMailer < ApplicationMailer
   attr_reader :large_attachments
 
   include ConversationReplyMailerHelper
-  default from: ENV.fetch('MAILER_SENDER_EMAIL', 'Chatwoot <accounts@mychat.ae>')
+  default from: ENV.fetch('MAILER_SENDER_EMAIL', 'Chatwoot <accounts@chatmy.ae>')
   layout :choose_layout
 
   def reply_with_summary(conversation, last_queued_id)

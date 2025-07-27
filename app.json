@@ -1,9 +1,9 @@
 {
   "name": "Mychat",
   "description": "Mychat is a customer support tool for instant messaging channels",
-  "website": "https://www.mychat.ae/",
+  "website": "https://www.chatmy.ae/",
   "repository": "https://github.com/chatwoot/chatwoot",
-  "logo": "https://app.mychat.ae/brand-assets/logo_thumbnail.svg",
+  "logo": "https://app.chatmy.ae/brand-assets/logo_thumbnail.svg",
   "keywords": [
     "live chat",
     "customer support",

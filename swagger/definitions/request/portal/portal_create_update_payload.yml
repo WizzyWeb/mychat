@@ -15,7 +15,7 @@ properties:
   homepage_link:
     type: string
     description: link to main dashboard
-    example: https://www.mychat.ae/
+    example: https://www.chatmy.ae/
   name:
     type: string
     description: Name for the portal
