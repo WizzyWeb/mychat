@@ -389,7 +389,7 @@
       },
       "AUTH": {
         "TITLE": "Pasirinkti Kanalą",
-        "DESC": "Chatwoot palaiko tiesioginio pokalbio valdiklius, Facebook Messenger, Twitter profilius, WhatsApp, el. laiškus ir kt. kaip kanalus. Jei norite sukurti personalizuotą kanalą, galite jį sukurti naudodami API kanalą. Norėdami pradėti, pasirinkite vieną iš toliau pateiktų kanalų."
+        "DESC": "Mychat palaiko tiesioginio pokalbio valdiklius, Facebook Messenger, Twitter profilius, WhatsApp, el. laiškus ir kt. kaip kanalus. Jei norite sukurti personalizuotą kanalą, galite jį sukurti naudodami API kanalą. Norėdami pradėti, pasirinkite vieną iš toliau pateiktų kanalų."
       },
       "AGENTS": {
         "TITLE": "Agentai",
@@ -399,7 +399,7 @@
       },
       "DETAILS": {
         "TITLE": "Gautų Laiškų Aplanko Detali Informacija",
-        "DESC": "Žemiau esančiame meniu pasirinkite Facebook puslapį, kurį norite prisijungti prie „Chatwoot“. Taip pat galite priskirti norimą pavadinimą savo gautų laiškų aplankui, kad būtų lengviau atpažinti."
+        "DESC": "Žemiau esančiame meniu pasirinkite Facebook puslapį, kurį norite prisijungti prie „Mychat“. Taip pat galite priskirti norimą pavadinimą savo gautų laiškų aplankui, kad būtų lengviau atpažinti."
       },
       "FINISH": {
         "TITLE": "Atlikta!",
