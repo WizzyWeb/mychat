@@ -47,11 +47,11 @@ const runSDK = ({ baseUrl, websiteToken }) => {
     restoreWidgetInDOM(event.newDocument.body)
   );
 
-  const chatwootSettings = window.chatwootSettings || {};
-  let locale = chatwootSettings.locale;
-  let baseDomain = chatwootSettings.baseDomain;
+  const mychatSettings = window.mychatSettings || {};
+  let locale = mychatSettings.locale;
+  let baseDomain = mychatSettings.baseDomain;
 
-  if (chatwootSettings.useBrowserLanguage) {
+  if (mychatSettings.useBrowserLanguage) {
     locale = window.navigator.language.replace('-', '_');
   }
 
@@ -59,26 +59,26 @@ const runSDK = ({ baseUrl, websiteToken }) => {
     baseUrl,
     baseDomain,
     hasLoaded: false,
-    hideMessageBubble: chatwootSettings.hideMessageBubble || false,
+    hideMessageBubble: mychatSettings.hideMessageBubble || false,
     isOpen: false,
-    position: chatwootSettings.position === 'left' ? 'left' : 'right',
+    position: mychatSettings.position === 'left' ? 'left' : 'right',
     websiteToken,
     locale,
-    useBrowserLanguage: chatwootSettings.useBrowserLanguage || false,
-    type: getBubbleView(chatwootSettings.type),
-    launcherTitle: chatwootSettings.launcherTitle || '',
-    showPopoutButton: chatwootSettings.showPopoutButton || false,
-    showUnreadMessagesDialog: chatwootSettings.showUnreadMessagesDialog ?? true,
-    widgetStyle: getWidgetStyle(chatwootSettings.widgetStyle) || 'standard',
+    useBrowserLanguage: mychatSettings.useBrowserLanguage || false,
+    type: getBubbleView(mychatSettings.type),
+    launcherTitle: mychatSettings.launcherTitle || '',
+    showPopoutButton: mychatSettings.showPopoutButton || false,
+    showUnreadMessagesDialog: mychatSettings.showUnreadMessagesDialog ?? true,
+    widgetStyle: getWidgetStyle(mychatSettings.widgetStyle) || 'standard',
     resetTriggered: false,
-    darkMode: getDarkMode(chatwootSettings.darkMode),
-    welcomeTitle: chatwootSettings.welcomeTitle || '',
-    welcomeDescription: chatwootSettings.welcomeDescription || '',
-    availableMessage: chatwootSettings.availableMessage || '',
-    unavailableMessage: chatwootSettings.unavailableMessage || '',
-    enableFileUpload: chatwootSettings.enableFileUpload ?? true,
-    enableEmojiPicker: chatwootSettings.enableEmojiPicker ?? true,
-    enableEndConversation: chatwootSettings.enableEndConversation ?? true,
+    darkMode: getDarkMode(mychatSettings.darkMode),
+    welcomeTitle: mychatSettings.welcomeTitle || '',
+    welcomeDescription: mychatSettings.welcomeDescription || '',
+    availableMessage: mychatSettings.availableMessage || '',
+    unavailableMessage: mychatSettings.unavailableMessage || '',
+    enableFileUpload: mychatSettings.enableFileUpload ?? true,
+    enableEmojiPicker: mychatSettings.enableEmojiPicker ?? true,
+    enableEndConversation: mychatSettings.enableEndConversation ?? true,
 
     toggle(state) {
       IFrameHelper.events.toggleBubble(state);
@@ -216,6 +216,6 @@ const runSDK = ({ baseUrl, websiteToken }) => {
   });
 };
 
-window.chatwootSDK = {
+window.mychatSDK = {
   run: runSDK,
 };

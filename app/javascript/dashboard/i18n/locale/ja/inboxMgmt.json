@@ -811,7 +811,7 @@
         "AGENT_MESSAGE": "こんにちは"
       },
       "BRANDING_TEXT": "提供：Chatwoot",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.mychatSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

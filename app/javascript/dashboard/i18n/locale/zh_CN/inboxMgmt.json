@@ -810,8 +810,8 @@
         "USER_MESSAGE": "嗨",
         "AGENT_MESSAGE": "您好"
       },
-      "BRANDING_TEXT": "由 Chatwoot 支持",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "BRANDING_TEXT": "由 Mychat 支持",
+      "SCRIPT_SETTINGS": "\n      window.mychatSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

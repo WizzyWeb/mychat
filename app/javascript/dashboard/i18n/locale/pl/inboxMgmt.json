@@ -11,7 +11,7 @@
     "CREATE_FLOW": {
       "CHANNEL": {
         "TITLE": "Wybierz kanał",
-        "BODY": "Wybierz dostawcę, którego chcesz zintegrować z Chatwoot."
+        "BODY": "Wybierz dostawcę, którego chcesz zintegrować z Mychat."
       },
       "INBOX": {
         "TITLE": "Utwórz skrzynkę odbiorczą",
@@ -37,7 +37,7 @@
         "PLACEHOLDER": "Wprowadź nazwę swojej witryny (np. Acme Inc.)."
       },
       "FB": {
-        "HELP": "PS: Logując się, uzyskujemy dostęp tylko do wiadomości na Twojej stronie. Chatwoot nigdy nie będzie miał dostępu do prywatnych wiadomości.",
+        "HELP": "PS: Logując się, uzyskujemy dostęp tylko do wiadomości na Twojej stronie. Mychat nigdy nie będzie miał dostępu do prywatnych wiadomości.",
         "CHOOSE_PAGE": "Wybierz stronę",
         "CHOOSE_PLACEHOLDER": "Wybierz stronę z listy",
         "INBOX_NAME": "Nazwa skrzynki odbiorczej",
@@ -403,7 +403,7 @@
       },
       "FINISH": {
         "TITLE": "Twoja skrzynka odbiorcza jest gotowa!",
-        "DESC": "Pomyślnie zakończyłeś integrację strony na Facebooku z czatwootem. Następnym razem, gdy klient komunikuje Twoją stronę, konwersacja pojawi się automatycznie na twojej skrzynce odbiorczej.<br>Dostarczamy również skrypt widżetu, który można łatwo dodać do swojej witryny. Gdy tylko będzie on dostępny na Twojej stronie internetowej, klienci mogą wysyłać Ci wiadomości bezpośrednio z Twojej strony bez pomocy żadnego zewnętrznego narzędzia, a konwersacja pojawi się tutaj w Chatwoot.<br>Coś, co? Cóż, na pewno spróbujemy być :)"
+        "DESC": "Pomyślnie zakończyłeś integrację strony na Facebooku z czatwootem. Następnym razem, gdy klient komunikuje Twoją stronę, konwersacja pojawi się automatycznie na twojej skrzynce odbiorczej.<br>Dostarczamy również skrypt widżetu, który można łatwo dodać do swojej witryny. Gdy tylko będzie on dostępny na Twojej stronie internetowej, klienci mogą wysyłać Ci wiadomości bezpośrednio z Twojej strony bez pomocy żadnego zewnętrznego narzędzia, a konwersacja pojawi się tutaj w Mychat.<br>Coś, co? Cóż, na pewno spróbujemy być :)"
       },
       "EMAIL_PROVIDER": {
         "TITLE": "Wybierz dostawcę poczty e-mail",
@@ -810,8 +810,8 @@
         "USER_MESSAGE": "Cześć",
         "AGENT_MESSAGE": "Witam"
       },
-      "BRANDING_TEXT": "Napędzany przez Chatwoot",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "BRANDING_TEXT": "Napędzany przez Mychat",
+      "SCRIPT_SETTINGS": "\n      window.mychatSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

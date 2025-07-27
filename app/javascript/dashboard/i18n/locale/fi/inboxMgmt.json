@@ -37,7 +37,7 @@
         "PLACEHOLDER": "Anna sivuston nimi (esim. Acme Oy)"
       },
       "FB": {
-        "HELP": "PS: Kirjautumalla sisään saamme vain pääsyn sivusi viesteihin. Chatwoot ei koskaan näe yksityisviestejäsi.",
+        "HELP": "PS: Kirjautumalla sisään saamme vain pääsyn sivusi viesteihin. Mychat ei koskaan näe yksityisviestejäsi.",
         "CHOOSE_PAGE": "Valitse sivu",
         "CHOOSE_PLACEHOLDER": "Valitse sivu listasta",
         "INBOX_NAME": "Kansion nimi",
@@ -810,8 +810,8 @@
         "USER_MESSAGE": "Hei",
         "AGENT_MESSAGE": "Moi"
       },
-      "BRANDING_TEXT": "Palvelun tarjoaa Chatwoot",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "BRANDING_TEXT": "Palvelun tarjoaa Mychat",
+      "SCRIPT_SETTINGS": "\n      window.mychatSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

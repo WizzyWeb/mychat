@@ -11,7 +11,7 @@
     "CREATE_FLOW": {
       "CHANNEL": {
         "TITLE": "Kies kanaal",
-        "BODY": "Kies de aanbieder die je wilt integreren met Chatwoot."
+        "BODY": "Kies de aanbieder die je wilt integreren met Mychat."
       },
       "INBOX": {
         "TITLE": "Maak inbox",
@@ -403,7 +403,7 @@
       },
       "FINISH": {
         "TITLE": "Geïnstalleerd het!",
-        "DESC": "U heeft de integratie van uw Facebook-pagina met Chatwood succesvol voltooid. Volgende keer dat een klant uw pagina bericht, zal het gesprek automatisch in uw inbox verschijnen.<br>We bieden u ook een widget script aan, dat u eenvoudig aan uw website kunt toevoegen. Zodra dit live is op je website klanten kunnen vanaf uw website een bericht sturen zonder de hulp van een externe tool en het gesprek verschijnt hier op Chatwoot.<br>Koel, toch? Wel, proberen we zeker om te zijn :)"
+        "DESC": "U heeft de integratie van uw Facebook-pagina met Chatwood succesvol voltooid. Volgende keer dat een klant uw pagina bericht, zal het gesprek automatisch in uw inbox verschijnen.<br>We bieden u ook een widget script aan, dat u eenvoudig aan uw website kunt toevoegen. Zodra dit live is op je website klanten kunnen vanaf uw website een bericht sturen zonder de hulp van een externe tool en het gesprek verschijnt hier op Mychat.<br>Koel, toch? Wel, proberen we zeker om te zijn :)"
       },
       "EMAIL_PROVIDER": {
         "TITLE": "Select your email provider",
@@ -810,8 +810,8 @@
         "USER_MESSAGE": "Hi",
         "AGENT_MESSAGE": "Hello"
       },
-      "BRANDING_TEXT": "Mogelijk gemaakt door Chatwoot",
-      "SCRIPT_SETTINGS": "\n      window.chatwootSettings = {options};"
+      "BRANDING_TEXT": "Mogelijk gemaakt door Mychat",
+      "SCRIPT_SETTINGS": "\n      window.mychatSettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",
