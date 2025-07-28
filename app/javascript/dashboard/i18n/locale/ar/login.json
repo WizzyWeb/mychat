@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "TITLE": "تسجيل الدخول إلى Mychat",
+    "TITLE": "تسجيل الدخول إلى ChatMy",
     "EMAIL": {
       "LABEL": "البريد الإلكتروني",
       "PLACEHOLDER": "example{'@'}companyname.com",

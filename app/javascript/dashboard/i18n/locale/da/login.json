@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "TITLE": "Log ind på Mychat",
+    "TITLE": "Log ind på ChatMy",
     "EMAIL": {
       "LABEL": "E-mail",
       "PLACEHOLDER": "navn{'@'}example.dk",

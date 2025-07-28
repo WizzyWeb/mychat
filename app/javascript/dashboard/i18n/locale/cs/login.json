@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "TITLE": "Přihlásit se do Mychat",
+    "TITLE": "Přihlásit se do ChatMy",
     "EMAIL": {
       "LABEL": "E-mailová adresa",
       "PLACEHOLDER": "example{'@'}companyname.com",

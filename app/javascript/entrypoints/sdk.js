@@ -47,11 +47,11 @@ const runSDK = ({ baseUrl, websiteToken }) => {
     restoreWidgetInDOM(event.newDocument.body)
   );
 
-  const mychatSettings = window.mychatSettings || {};
-  let locale = mychatSettings.locale;
-  let baseDomain = mychatSettings.baseDomain;
+  const ChatMySettings = window.ChatMySettings || {};
+  let locale = ChatMySettings.locale;
+  let baseDomain = ChatMySettings.baseDomain;
 
-  if (mychatSettings.useBrowserLanguage) {
+  if (ChatMySettings.useBrowserLanguage) {
     locale = window.navigator.language.replace('-', '_');
   }
 
@@ -59,26 +59,26 @@ const runSDK = ({ baseUrl, websiteToken }) => {
     baseUrl,
     baseDomain,
     hasLoaded: false,
-    hideMessageBubble: mychatSettings.hideMessageBubble || false,
+    hideMessageBubble: ChatMySettings.hideMessageBubble || false,
     isOpen: false,
-    position: mychatSettings.position === 'left' ? 'left' : 'right',
+    position: ChatMySettings.position === 'left' ? 'left' : 'right',
     websiteToken,
     locale,
-    useBrowserLanguage: mychatSettings.useBrowserLanguage || false,
-    type: getBubbleView(mychatSettings.type),
-    launcherTitle: mychatSettings.launcherTitle || '',
-    showPopoutButton: mychatSettings.showPopoutButton || false,
-    showUnreadMessagesDialog: mychatSettings.showUnreadMessagesDialog ?? true,
-    widgetStyle: getWidgetStyle(mychatSettings.widgetStyle) || 'standard',
+    useBrowserLanguage: ChatMySettings.useBrowserLanguage || false,
+    type: getBubbleView(ChatMySettings.type),
+    launcherTitle: ChatMySettings.launcherTitle || '',
+    showPopoutButton: ChatMySettings.showPopoutButton || false,
+    showUnreadMessagesDialog: ChatMySettings.showUnreadMessagesDialog ?? true,
+    widgetStyle: getWidgetStyle(ChatMySettings.widgetStyle) || 'standard',
     resetTriggered: false,
-    darkMode: getDarkMode(mychatSettings.darkMode),
-    welcomeTitle: mychatSettings.welcomeTitle || '',
-    welcomeDescription: mychatSettings.welcomeDescription || '',
-    availableMessage: mychatSettings.availableMessage || '',
-    unavailableMessage: mychatSettings.unavailableMessage || '',
-    enableFileUpload: mychatSettings.enableFileUpload ?? true,
-    enableEmojiPicker: mychatSettings.enableEmojiPicker ?? true,
-    enableEndConversation: mychatSettings.enableEndConversation ?? true,
+    darkMode: getDarkMode(ChatMySettings.darkMode),
+    welcomeTitle: ChatMySettings.welcomeTitle || '',
+    welcomeDescription: ChatMySettings.welcomeDescription || '',
+    availableMessage: ChatMySettings.availableMessage || '',
+    unavailableMessage: ChatMySettings.unavailableMessage || '',
+    enableFileUpload: ChatMySettings.enableFileUpload ?? true,
+    enableEmojiPicker: ChatMySettings.enableEmojiPicker ?? true,
+    enableEndConversation: ChatMySettings.enableEndConversation ?? true,
 
     toggle(state) {
       IFrameHelper.events.toggleBubble(state);
@@ -216,6 +216,6 @@ const runSDK = ({ baseUrl, websiteToken }) => {
   });
 };
 
-window.mychatSDK = {
+window.ChatMySDK = {
   run: runSDK,
 };

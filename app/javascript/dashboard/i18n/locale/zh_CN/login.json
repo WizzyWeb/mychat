@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "TITLE": "登录到Mychat",
+    "TITLE": "登录到ChatMy",
     "EMAIL": {
       "LABEL": "Email",
       "PLACEHOLDER": "实例 {'@'}companyname.com",

@@ -14,7 +14,7 @@
 
 # ------- Branding Related Config ------- #
 - name: INSTALLATION_NAME
-  value: 'MyChat'
+  value: 'ChatMy'
   display_title: 'Installation Name'
   description: 'The installation wide name that would be used in the dashboard, title etc.'
 - name: LOGO_THUMBNAIL
@@ -38,7 +38,7 @@
   display_title: 'Widget Brand URL'
   description: 'The URL that would be used in the widget under the section “Powered By”'
 - name: BRAND_NAME
-  value: 'MyChat'
+  value: 'ChatMy'
   display_title: 'Brand Name'
   description: 'The name that would be used in emails and the widget'
 - name: TERMS_URL
@@ -51,8 +51,8 @@
   description: 'The privacy policy URL displayed in the app'
 - name: DISPLAY_MANIFEST
   value: true
-  display_title: 'MyChat Metadata'
-  description: 'Display default MyChat metadata like favicons and upgrade warnings'
+  display_title: 'ChatMy Metadata'
+  description: 'Display default ChatMy metadata like favicons and upgrade warnings'
   type: boolean
 # ------- End of Branding Related Config ------- #
 
@@ -187,13 +187,13 @@
 - name: CHATWOOT_INBOX_TOKEN
   value:
   display_title: 'Inbox Token'
-  description: 'The MyChat Inbox Token for Contact Support in Cloud'
+  description: 'The ChatMy Inbox Token for Contact Support in Cloud'
   locked: false
   type: secret
 - name: CHATWOOT_INBOX_HMAC_KEY
   value:
   display_title: 'Inbox HMAC Key'
-  description: 'The MyChat Inbox HMAC Key for Contact Support in Cloud'
+  description: 'The ChatMy Inbox HMAC Key for Contact Support in Cloud'
   locked: false
   type: secret
 - name: CHATWOOT_CLOUD_PLANS
@@ -206,11 +206,11 @@
   description: 'Config to features and their associated plans'
 - name: DEPLOYMENT_ENV
   value: self-hosted
-  description: 'The deployment environment of the installation, to differentiate between MyChat cloud and self-hosted'
+  description: 'The deployment environment of the installation, to differentiate between ChatMy cloud and self-hosted'
 - name: ANALYTICS_TOKEN
   value:
   display_title: 'Analytics Token'
-  description: 'The June.so analytics token for MyChat cloud'
+  description: 'The June.so analytics token for ChatMy cloud'
   type: secret
 - name: CLEARBIT_API_KEY
   value:
@@ -243,19 +243,19 @@
   description: 'The number of licenses purchased for the installation, retrieved from the billing API'
 - name: CHATWOOT_SUPPORT_WEBSITE_TOKEN
   value:
-  description: 'The MyChat website token, used to identify the MyChat inbox and display the "Contact Support" option on the billing page'
+  description: 'The ChatMy website token, used to identify the ChatMy inbox and display the "Contact Support" option on the billing page'
   type: secret
 - name: CHATWOOT_SUPPORT_SCRIPT_URL
   value:
-  description: 'The MyChat script base URL, to display the "Contact Support" option on the billing page'
+  description: 'The ChatMy script base URL, to display the "Contact Support" option on the billing page'
 - name: CHATWOOT_SUPPORT_IDENTIFIER_HASH
   value:
-  description: 'The MyChat identifier hash, to validate the contact in the live chat window.'
+  description: 'The ChatMy identifier hash, to validate the contact in the live chat window.'
   type: secret
 - name: ACCOUNT_SECURITY_NOTIFICATION_WEBHOOK_URL
   display_title: Webhook URL to post security analysis
   value:
-  description: Used to notify MyChat about account abuses, potential threads (Should be a Discord Webhook URL)
+  description: Used to notify ChatMy about account abuses, potential threads (Should be a Discord Webhook URL)
 # ------- End of Chatwoot Internal Config for Self Hosted ----#
 
 # ------- Compliance Related Config ----#

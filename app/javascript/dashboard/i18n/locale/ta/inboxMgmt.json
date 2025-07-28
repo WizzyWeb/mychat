@@ -389,7 +389,7 @@
       },
       "AUTH": {
         "TITLE": "Choose a channel",
-        "DESC": "Mychat supports live-chat widgets, Facebook Messenger, Twitter profiles, WhatsApp, Emails, etc., as channels. If you want to build a custom channel, you can create it using the API channel. To get started, choose one of the channels below."
+        "DESC": "ChatMy supports live-chat widgets, Facebook Messenger, Twitter profiles, WhatsApp, Emails, etc., as channels. If you want to build a custom channel, you can create it using the API channel. To get started, choose one of the channels below."
       },
       "AGENTS": {
         "TITLE": "ஏஜென்ட்கள்",
@@ -811,7 +811,7 @@
         "AGENT_MESSAGE": "Hello"
       },
       "BRANDING_TEXT": "சாட்வுட் மூலம் இயக்கபடுகிறது",
-      "SCRIPT_SETTINGS": "\n      window.mychatSettings = {options};"
+      "SCRIPT_SETTINGS": "\n      window.ChatMySettings = {options};"
     },
     "EMAIL_PROVIDERS": {
       "MICROSOFT": "Microsoft",

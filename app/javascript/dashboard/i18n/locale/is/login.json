@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "TITLE": "Login to Mychat",
+    "TITLE": "Login to ChatMy",
     "EMAIL": {
       "LABEL": "Tölvupóstfang",
       "PLACEHOLDER": "example{'@'}companyname.com",

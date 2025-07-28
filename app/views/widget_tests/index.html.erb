@@ -13,7 +13,7 @@
 %>
 <script>
 
-window.mychatSettings = {
+window.ChatMySettings = {
   hideMessageBubble: false,
   // showUnreadMessagesDialog: false,
   // baseDomain: '.loca.lt',
@@ -33,7 +33,7 @@ window.mychatSettings = {
   g.async = true;
   s.parentNode.insertBefore(g,s);
   g.onload=function(){
-    window.mychatSDK.run({
+    window.ChatMySDK.run({
       websiteToken: '<%= @web_widget.website_token %>',
       baseUrl: BASE_URL
     })

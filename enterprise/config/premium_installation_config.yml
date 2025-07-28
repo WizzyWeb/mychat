@@ -1,6 +1,6 @@
 # ------- Branding Related Config ------- #
 - name: INSTALLATION_NAME
-  value: 'MyChat'
+  value: 'ChatMy'
 - name: LOGO_THUMBNAIL
   value: '/brand-assets/logo_thumbnail.svg'
 - name: LOGO
@@ -12,7 +12,7 @@
 - name: WIDGET_BRAND_URL
   value: 'https://www.chatmy.ae'
 - name: BRAND_NAME
-  value: 'MyChat'
+  value: 'ChatMy'
 - name: TERMS_URL
   value: 'https://www.chatmy.ae/terms-of-service'
 - name: PRIVACY_URL

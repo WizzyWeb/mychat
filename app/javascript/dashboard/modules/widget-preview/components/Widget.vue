@@ -183,7 +183,7 @@ export default {
         <img
           v-if="!isWidgetVisible"
           src="~dashboard/assets/images/bubble-logo.svg"
-          alt="MyChat"
+          alt="ChatMy"
           draggable="false"
           class="w-6 h-6 mx-auto"
         />

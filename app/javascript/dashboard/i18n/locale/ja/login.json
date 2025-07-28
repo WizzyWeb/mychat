@@ -1,6 +1,6 @@
 {
   "LOGIN": {
-    "TITLE": "Mychatにログイン",
+    "TITLE": "ChatMyにログイン",
     "EMAIL": {
       "LABEL": "Eメール",
       "PLACEHOLDER": "example{'@'}companyname.com",
